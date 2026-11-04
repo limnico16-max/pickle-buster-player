@@ -1390,3 +1390,11 @@ button,input,select,textarea{font-family:inherit}
 .holding-player-details{padding:0 10px 10px;background:#f7f8fb}
 .holding-player-details .row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px;border-bottom:1px solid #e8ebf1}
 @media(max-width:520px){.holding-player-summary{padding:11px 10px;gap:7px}.holding-player-summary small{font-size:10px}.holding-balance-pill{font-size:12px;padding:6px 7px}}
+
+
+/* GLOBAL LIGHT SURFACES — keep operational panels readable on every screen */
+.session-module-grid>button,.session-operation-panel,.ops-panel,.form-panel,.list-panel,.table-panel,.lucky-wheel-card,.session-hero-card,.announcement-admin-card{background:#fff!important;color:#17243b!important;border:1px solid #dce2ed!important;box-shadow:0 4px 18px rgba(25,38,60,.06)!important}
+.session-module-grid>button strong,.session-operation-panel h2,.session-operation-panel h3,.ops-panel h2,.ops-panel h3,.form-panel h2,.form-panel h3,.list-panel h2,.list-panel h3,.table-panel h2,.lucky-wheel-card h3,.announcement-admin-card strong{color:#17243b!important}
+.session-module-grid>button small,.session-module-grid>button span,.session-operation-panel p,.ops-panel p,.form-panel p,.list-panel p,.table-panel p,.lucky-wheel-card span,.announcement-admin-card small{color:#66738a!important}
+.session-operation-panel .operation-row,.ops-panel .operation-row,.form-panel .row,.list-panel .row,.table-panel .row{background:#f8f9fc!important;color:#17243b!important;border-color:#e4e8f0!important}
+.session-operation-panel .operation-row strong,.ops-panel .operation-row strong{color:#17243b!important}

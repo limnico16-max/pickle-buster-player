@@ -1261,18 +1261,6 @@ button,input,select,textarea{font-family:inherit}
   .player-layout .rank-highlight{grid-template-columns:repeat(2,1fr)!important}
   .player-layout .game-card,.player-layout .transaction{display:grid!important;gap:9px!important}
 }
-  .player-layout .player-nav .nav-badge{position:absolute;margin-left:20px;margin-top:-3px}
-  .player-layout .player-main{padding:0!important}
-  .player-layout .player-top{margin:8px 4px 14px}
-  .player-layout .player-top h1{font-size:28px!important}
-  .player-layout .player-top-pill{padding:8px 11px}
-  .player-layout .player-hero{padding:24px 20px!important;min-height:220px!important}
-  .player-layout .player-hero h2{font-size:34px!important}
-  .player-layout .social-card{grid-template-columns:54px 1fr!important;gap:12px!important;padding:13px!important}
-  .player-layout .social-card-actions{grid-column:2;display:flex;align-items:center;justify-content:space-between;gap:8px}
-  .player-layout .rank-highlight{grid-template-columns:repeat(2,1fr)!important}
-  .player-layout .game-card,.player-layout .transaction{display:grid!important;gap:9px!important}
-}
 
 
 /* PICKLE BUSTER NAVIGATION REWORK — fixed left menu on desktop, left drawer on mobile */

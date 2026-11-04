@@ -568,7 +568,7 @@ function PlayerPortal({onHome,onSignOut,onSwitchBack,managementRole}) {
         <button className="signout player-signout" onClick={signOut}>Sign out</button>
       </aside>
       <section className="player-main">
-        <div className="player-top"><div><small>PLAYER PORTAL</small><h1>{tab==='home'?'Play & Connect':tab==='me'?'My Profile':tab==='holding'?'Holding / Payment':tab==='upcoming'?'Upcoming Sessions':tab==='ladies'?'Ladies Sparring':tab==='announcements'?'Announcements':tab[0].toUpperCase()+tab.slice(1)}</h1></div><div className="top-actions"><div className="player-top-pill">@{player?.username||'PLAYER'}</div></div></div>
+        <div className="player-top"><button className="refresh-btn portal-back-btn" onClick={()=>setTab('home')}>← Back</button><div><small>PLAYER PORTAL</small><h1>{tab==='home'?'Play & Connect':tab==='me'?'My Profile':tab==='holding'?'Holding / Payment':tab==='upcoming'?'Upcoming Sessions':tab==='ladies'?'Ladies Sparring':tab==='announcements'?'Announcements':tab[0].toUpperCase()+tab.slice(1)}</h1></div><div className="top-actions"><div className="player-top-pill">@{player?.username||'PLAYER'}</div></div></div>
         {message&&<div className="notice">{message}</div>}
 
         {tab==='home'&&<>

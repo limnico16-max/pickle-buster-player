@@ -3,7 +3,20 @@
   "short_name": "PB Player",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#050505",
-  "icons": [{"src":"/assets/pickle-buster-logo-3d.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/assets/pb-home-screen-icon-original.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }

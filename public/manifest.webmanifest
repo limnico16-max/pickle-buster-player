@@ -7,8 +7,8 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/assets/pb-home-screen-icon-original.png?v=20261104",
-      "sizes": "1254x1254",
+      "src": "/assets/apple-touch-icon.png?v=20261104b",
+      "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
     }

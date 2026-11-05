@@ -1533,3 +1533,204 @@ body{background:#f4f6fa!important;color:#17243b!important}
   .admin-layout .session-nav,.ajk-layout .session-nav{flex-wrap:nowrap!important}
   .session-nav>button{min-width:max-content!important}
 }
+
+
+/* PICKLE BUSTER — CONTRAST & CANVAS FIX v2 (desktop + mobile) */
+html,body,#root{background:#f3f5f9!important;color:#18243a!important}
+body{color:#18243a!important}
+.admin-layout,.ajk-layout,.player-layout,
+.admin-layout.female-player,.ajk-layout.female-player,.player-layout.female-player{
+  background:#f3f5f9!important;color:#18243a!important
+}
+.admin-main,.ajk-main,.player-main,
+.admin-layout .admin-main,.ajk-layout .ajk-main,.player-layout .player-main{
+  background:transparent!important;color:#18243a!important
+}
+.admin-top,.ajk-top,.player-top,
+.admin-layout .admin-top,.ajk-layout .admin-top,.player-layout .player-top{
+  background:#fff!important;color:#18243a!important;
+  border:1px solid #e5e9f0!important;border-radius:16px!important;
+  box-shadow:0 4px 18px rgba(25,38,60,.045)!important;
+  padding:14px 16px!important
+}
+.admin-layout .side,.ajk-layout .side,.player-layout .player-side{
+  background:linear-gradient(180deg,#fff 0%,#f8f9fc 100%)!important;
+  color:#18243a!important;border:1px solid #e1e6ef!important;
+  box-shadow:0 8px 28px rgba(25,38,60,.055)!important
+}
+.admin-layout .side-title,.ajk-layout .side-title,
+.player-layout .player-side-brand strong,
+.player-layout .player-identity strong{color:#18243a!important}
+.admin-layout .side nav button,.ajk-layout .side nav button,
+.player-layout .player-nav button,
+.admin-layout .signout,.ajk-layout .signout,.player-layout .player-signout{
+  color:#526078!important
+}
+.admin-layout .side nav button.active,.admin-layout .side nav button:hover{
+  background:#fff0f7!important;color:#a52e6b!important
+}
+.ajk-layout .side nav button.active,.ajk-layout .side nav button:hover{
+  background:#fbf5e9!important;color:#795c29!important
+}
+.player-layout .player-nav button.active,.player-layout .player-nav button:hover{
+  background:#edf3ff!important;color:#2858ad!important
+}
+.player-layout .player-side-brand{border-color:#e3e8f0!important}
+.player-layout .player-side-brand span,.player-layout .player-identity small,
+.player-layout .player-top small,.player-layout .player-list-page .section-head small{
+  color:#c0377d!important
+}
+.player-layout .player-identity{
+  background:#f5f7fb!important;border:1px solid #e5e9f0!important
+}
+.player-layout .player-main{background:transparent!important;color:#18243a!important}
+.player-layout .player-top{
+  background:#fff!important;border:1px solid #e5e9f0!important;
+  border-radius:16px!important;box-shadow:0 4px 18px rgba(25,38,60,.045)!important
+}
+.player-layout .player-top h1,
+.player-layout .section-head h2,.player-layout .section-head h3,
+.player-layout .player-list-page h1,.player-layout .player-list-page h2,
+.player-layout .player-list-page h3,
+.player-layout .social-info h3,.player-layout .game-card strong,
+.player-layout .transaction strong,.player-layout .table-panel h2,
+.player-layout .profile-card h2,.player-layout .feature-page h2,
+.player-layout .rank-highlight strong,.player-layout .profile-grid strong,
+.player-layout .member-count h2,.player-layout .player-tile strong{
+  color:#18243a!important
+}
+.player-layout .player-top-pill{
+  background:#f5f7fb!important;color:#43516a!important;border-color:#e1e6ef!important
+}
+.player-layout .player-list-page,.player-layout .home-upcoming,
+.player-layout .profile-page,.player-layout .social-list,
+.player-layout .game-history,.player-layout .transaction-list{
+  background:transparent!important;color:#18243a!important
+}
+.player-layout .section-head{background:transparent!important}
+.player-layout .section-head h2,.player-layout .section-head h3{color:#18243a!important}
+.player-layout .social-card,.player-layout .player-tile,
+.player-layout .rank-highlight>div,.player-layout .table-panel,
+.player-layout .game-card,.player-layout .transaction,
+.player-layout .feature-page,.player-layout .member-count,
+.player-layout .member-card,.player-layout .profile-card,
+.player-layout .profile-grid>div,.player-layout .balance-card,
+.player-layout .list-panel,.player-layout .announcement-player-card,
+.player-layout .lucky-wheel-card,.player-layout .player-announcement-banner{
+  background:#fff!important;color:#18243a!important;
+  border:1px solid #e1e6ef!important;
+  box-shadow:0 5px 20px rgba(25,38,60,.055)!important
+}
+.player-layout .social-date,.player-layout .member-icon,
+.player-layout .profile-avatar{
+  background:#fff0f7!important;color:#bd397e!important;border-color:#f1d6e4!important
+}
+.player-layout .social-date b{color:#18243a!important}
+.player-layout .social-date span,.player-layout .social-info small,
+.player-layout .player-tile small,.player-layout .game-status,
+.player-layout .rank-highlight small,.player-layout .profile-grid small,
+.player-layout .balance-card small,.player-layout .lucky-wheel-card small{
+  color:#c0377d!important
+}
+.player-layout .social-info p,.player-layout .player-tile span,
+.player-layout .game-card small,.player-layout .transaction small,
+.player-layout .profile-card p,.player-layout .feature-page p,
+.player-layout .section-hint,.player-layout .section-head p{
+  color:#68758b!important
+}
+.player-layout .player-hero,.player-layout .lucky-hero{
+  background:linear-gradient(135deg,#fff 0%,#fff7fb 100%)!important;
+  color:#18243a!important;border:1px solid #ecdce5!important
+}
+.player-layout .player-hero h2,.player-layout .lucky-hero h2{color:#18243a!important}
+.player-layout .player-hero p,.player-layout .lucky-hero p{color:#68758b!important}
+.player-layout .player-cta,.player-layout .reserve-btn,
+.player-layout .player-primary{background:#d83f8d!important;color:#fff!important}
+.player-layout .status-chip{background:#f2f4f8!important;color:#526078!important;border-color:#e1e6ef!important}
+.player-layout .status-chip.confirmed,.player-layout .status-chip.published{
+  background:#fff0f7!important;color:#a52e6b!important;border-color:#f1d6e4!important
+}
+.player-layout .rank-row{color:#34435c!important;border-color:#e5e9f0!important}
+.player-layout .rank-row.head{color:#78849a!important}
+.player-layout .rank-row.me{background:#fff0f7!important;color:#18243a!important}
+.player-layout .feature-note,.player-layout .privacy-note,.player-layout .notice{
+  background:#f8f9fc!important;color:#526078!important;border-color:#e1e6ef!important
+}
+.player-layout .wheel-center,.player-layout .mini-wheel-center{
+  background:#fff!important;color:#9a702e!important;border-color:#d8bb7b!important
+}
+.player-layout .player-nav{background:transparent!important}
+.player-layout .player-nav button.active{background:#edf3ff!important;color:#2858ad!important}
+.player-layout .player-nav button.active span{color:#2858ad!important}
+.admin-layout .form-panel,.admin-layout .list-panel,.admin-layout .table-panel,
+.admin-layout .ops-panel,.admin-layout .ops-panel.sub,
+.admin-layout .session-operation-panel,.admin-layout .session-hero-card,
+.admin-layout .session-detail,.admin-layout .announcement-admin-card,
+.admin-layout .edit-panel,.admin-layout .coming,.admin-layout .lucky-hero,
+.admin-layout .lucky-wheel-card,.admin-layout .session-module-grid>button,
+.ajk-layout .form-panel,.ajk-layout .list-panel,.ajk-layout .table-panel,
+.ajk-layout .ops-panel,.ajk-layout .ops-panel.sub,
+.ajk-layout .session-operation-panel,.ajk-layout .session-hero-card,
+.ajk-layout .session-detail,.ajk-layout .announcement-admin-card,
+.ajk-layout .edit-panel,.ajk-layout .coming,.ajk-layout .lucky-hero,
+.ajk-layout .lucky-wheel-card,.ajk-layout .session-module-grid>button{
+  background:#fff!important;color:#18243a!important;
+  border:1px solid #e1e6ef!important;
+  box-shadow:0 5px 20px rgba(25,38,60,.055)!important
+}
+.admin-layout .form-panel h2,.admin-layout .form-panel h3,
+.admin-layout .list-panel h2,.admin-layout .list-panel h3,
+.admin-layout .ops-panel h2,.admin-layout .ops-panel h3,
+.admin-layout .table-panel h2,
+.ajk-layout .form-panel h2,.ajk-layout .form-panel h3,
+.ajk-layout .list-panel h2,.ajk-layout .list-panel h3,
+.ajk-layout .ops-panel h2,.ajk-layout .ops-panel h3,
+.ajk-layout .table-panel h2{color:#18243a!important}
+.admin-layout .form-panel p,.admin-layout .list-panel p,.admin-layout .ops-panel p,
+.ajk-layout .form-panel p,.ajk-layout .list-panel p,.ajk-layout .ops-panel p{
+  color:#68758b!important
+}
+.admin-layout .row,.ajk-layout .row,
+.admin-layout .ops-player-row,.ajk-layout .ops-player-row,
+.admin-layout .match-row,.ajk-layout .match-row,
+.admin-layout .session-operation-panel .operation-row,
+.ajk-layout .session-operation-panel .operation-row{
+  background:#f7f8fb!important;color:#18243a!important;border-color:#e5e9f0!important
+}
+.admin-layout .row strong,.ajk-layout .row strong,
+.admin-layout .ops-player-row strong,.ajk-layout .ops-player-row strong,
+.admin-layout .match-row strong,.ajk-layout .match-row strong{color:#18243a!important}
+.admin-layout .row small,.ajk-layout .row small,
+.admin-layout .ops-player-row small,.ajk-layout .ops-player-row small,
+.admin-layout .match-row small,.ajk-layout .match-row small{color:#68758b!important}
+.admin-layout .lucky-hero,.ajk-layout .lucky-hero{
+  background:linear-gradient(135deg,#fff,#fff7fb)!important;color:#18243a!important
+}
+.admin-layout .lucky-hero p,.ajk-layout .lucky-hero p{color:#68758b!important}
+.admin-layout .lucky-stage.compact,.ajk-layout .lucky-stage.compact{
+  background:#fff7fb!important;color:#18243a!important;border-color:#eed9e4!important
+}
+.admin-layout .wheel-center,.ajk-layout .wheel-center{
+  background:#fff!important;color:#9a702e!important
+}
+.admin-layout .mystery-wheel-stage,.ajk-layout .mystery-wheel-stage{
+  background:linear-gradient(145deg,#fff,#f5f7fb)!important;color:#18243a!important
+}
+.admin-layout .mystery-spin-button,.ajk-layout .mystery-spin-button{
+  background:linear-gradient(135deg,#d8bb7b,#b28d4d)!important;color:#211a0e!important
+}
+.admin-layout input,.admin-layout select,.admin-layout textarea,
+.ajk-layout input,.ajk-layout select,.ajk-layout textarea,
+.player-layout input,.player-layout select,.player-layout textarea{
+  background:#fff!important;color:#18243a!important;border-color:#d8dfeb!important
+}
+.admin-layout label,.ajk-layout label,.player-layout label{color:#43516a!important}
+@media(max-width:900px){
+ .admin-layout,.ajk-layout,.player-layout{background:#f3f5f9!important}
+ .admin-main,.ajk-main,.player-main{background:transparent!important}
+ .player-layout .player-top{background:#fff!important}
+ .player-layout .player-side{background:#fff!important}
+ .player-layout .player-nav{background:#fff!important;border:1px solid #e1e6ef!important;box-shadow:0 8px 25px rgba(25,38,60,.12)!important}
+ .player-layout .player-nav button.active{background:#edf3ff!important;color:#2858ad!important}
+ .admin-layout .session-nav,.ajk-layout .session-nav{background:transparent!important}
+}

@@ -1398,3 +1398,138 @@ button,input,select,textarea{font-family:inherit}
 .session-module-grid>button small,.session-module-grid>button span,.session-operation-panel p,.ops-panel p,.form-panel p,.list-panel p,.table-panel p,.lucky-wheel-card span,.announcement-admin-card small{color:#66738a!important}
 .session-operation-panel .operation-row,.ops-panel .operation-row,.form-panel .row,.list-panel .row,.table-panel .row{background:#f8f9fc!important;color:#17243b!important;border-color:#e4e8f0!important}
 .session-operation-panel .operation-row strong,.ops-panel .operation-row strong{color:#17243b!important}
+
+
+/* PICKLE BUSTER — COMPLETE LIGHT THEME (ADMIN / AJK / PLAYER) */
+:root{color-scheme:light}
+html,body,#root{min-height:100%;background:#f4f6fa!important;color:#17243b!important}
+body{background:#f4f6fa!important;color:#17243b!important}
+.app-shell{background:transparent!important;color:#17243b!important}
+.topbar,.topbar-note,.brand-button{color:#17243b!important}
+.brand-button span{color:#c18a3d!important}
+.hero,.auth-panel,.player-auth-card,.player-loading,.standalone,
+.admin-layout .side,.ajk-layout .side,.player-layout .player-side,
+.admin-main,.ajk-main,.player-main,
+.admin-top,.ajk-top,.player-top,
+.command-grid>button,.ajk-command-grid>button,.portal-card,.step,
+.stats>div,.admin-stats>div,.session-stat-grid>div,
+.form-panel,.list-panel,.table-panel,.ops-panel,.ops-panel.sub,
+.session-operation-panel,.session-hero-card,.session-detail,
+.announcement-admin-card,.edit-panel,.coming,.feature-page,
+.player-hero,.player-tile,.social-card,.rank-highlight>div,
+.game-card,.transaction,.profile-card,.profile-grid>div,
+.member-card,.member-count,.balance-card,.table-panel,
+.lucky-hero,.lucky-wheel-card,.lucky-stage,.feature-note,.privacy-note,
+.ops-session-head,.ops-player-row,.court-card,.match-row,
+.holding-player-accordion,.holding-player-details,
+.session-module-grid>button,.command-grid button,.ajk-command-grid button,
+.admin-layout [class*="panel"],.ajk-layout [class*="panel"],.player-layout [class*="panel"],
+.admin-layout [class*="card"],.ajk-layout [class*="card"],.player-layout [class*="card"],
+.admin-layout [class*="tile"],.ajk-layout [class*="tile"],.player-layout [class*="tile"]{
+  background:#fff!important;color:#17243b!important;
+  border-color:#e1e6ef!important;
+  box-shadow:0 5px 20px rgba(25,38,60,.055)!important
+}
+.admin-layout .side,.ajk-layout .side,.player-layout .player-side{
+  background:linear-gradient(180deg,#fff 0%,#f8f9fc 100%)!important;
+  border:1px solid #e1e6ef!important
+}
+.admin-layout .side-title,.ajk-layout .side-title,.player-side-brand strong,
+.admin-layout h1,.admin-layout h2,.admin-layout h3,
+.ajk-layout h1,.ajk-layout h2,.ajk-layout h3,
+.player-layout h1,.player-layout h2,.player-layout h3,
+.hero h1,.auth-panel h1,.player-auth-card h1,
+.command-grid strong,.ajk-command-grid strong,
+.player-tile strong,.social-info h3,.profile-card h2,
+.form-panel strong,.list-panel strong,.ops-panel strong,
+.session-operation-panel strong,.table-panel strong{color:#17243b!important}
+.admin-layout p,.ajk-layout p,.player-layout p,
+.hero p,.auth-panel p,.player-auth-card p,
+.admin-layout small,.ajk-layout small,.player-layout small,
+.section-hint,.panel-note,.form-hint,.topbar-note{
+  color:#68758b!important
+}
+.admin-layout label,.ajk-layout label,.player-layout label,
+.form-panel label,.ops-panel label,.session-operation-panel label{color:#43516a!important}
+.admin-layout input,.admin-layout select,.admin-layout textarea,
+.ajk-layout input,.ajk-layout select,.ajk-layout textarea,
+.player-layout input,.player-layout select,.player-layout textarea,
+.auth-panel input,.player-auth-card input{
+  background:#fff!important;color:#17243b!important;
+  border:1px solid #d8dfeb!important
+}
+.admin-layout input::placeholder,.ajk-layout input::placeholder,
+.player-layout input::placeholder,.auth-panel input::placeholder{color:#8a95a8!important}
+.admin-layout .row,.ajk-layout .row,.player-layout .row,
+.operation-row,.ops-player-row,.match-row,.rank-row,
+.holding-player-details .row,.detail-grid>div{
+  background:#f8f9fc!important;color:#17243b!important;border-color:#e6eaf1!important
+}
+.admin-layout .row strong,.ajk-layout .row strong,.player-layout .row strong,
+.operation-row strong,.ops-player-row strong,.match-row strong{color:#17243b!important}
+.admin-layout .row small,.ajk-layout .row small,.player-layout .row small,
+.operation-row small,.ops-player-row small,.match-row small{color:#68758b!important}
+.admin-layout .side nav button,.ajk-layout .side nav button,
+.player-layout .player-nav button,.admin-layout .signout,.ajk-layout .signout,
+.player-layout .player-signout{
+  color:#526078!important;background:transparent!important
+}
+.admin-layout .side nav button.active,.admin-layout .side nav button:hover{
+  background:#fff0f7!important;color:#a52e6b!important
+}
+.ajk-layout .side nav button.active,.ajk-layout .side nav button:hover{
+  background:#fbf5e9!important;color:#795c29!important
+}
+.player-layout .player-nav button.active,.player-layout .player-nav button:hover{
+  background:#edf3ff!important;color:#2858ad!important
+}
+.admin-top .user-pill,.ajk-top .user-pill,.user-pill,.player-top-pill{
+  background:#fff!important;color:#526078!important;border-color:#dfe5ef!important
+}
+.portal-card,.command-grid button,.ajk-command-grid button,
+.player-tile,.session-module-grid>button{
+  text-align:left;border-radius:16px!important
+}
+.portal-card:hover,.command-grid button:hover,.ajk-command-grid button:hover,
+.player-tile:hover{border-color:#c5cfdf!important}
+.notice{background:#fff7e8!important;color:#77551f!important;border-color:#f0d9aa!important}
+.empty{background:#f8f9fc!important;color:#77839a!important}
+.status-chip{background:#eef2f7!important;color:#526078!important}
+.mystery-wheel-stage,.lucky-reveal-card,.lucky-reveal-gift,
+.wheel-center,.mini-wheel-center,.court-visual,.hero-orbit{
+  background:#fff!important;color:#17243b!important;border-color:#dce3ed!important
+}
+.mystery-wheel-stage{box-shadow:0 10px 30px rgba(25,38,60,.08)!important}
+.lucky-reveal-card{color:#17243b!important}
+.lucky-reveal-card *,.lucky-reveal-gift{color:#17243b!important}
+.mystery-spin-button{background:linear-gradient(135deg,#d8bb7b,#b28d4d)!important;color:#211a0e!important;border-color:#c6a15e!important}
+.wheel-center,.mini-wheel-center{border:2px solid #d8bb7b!important;color:#9a702e!important}
+.primary,.player-primary,.player-cta,.reserve-btn{
+  color:#fff!important
+}
+.admin-layout .session-nav,.ajk-layout .session-nav{
+  display:flex!important;flex-wrap:nowrap!important;overflow-x:auto!important;
+  overflow-y:hidden!important;white-space:nowrap!important;max-width:100%
+}
+.admin-layout .session-nav button,.ajk-layout .session-nav button{
+  flex:0 0 auto!important;white-space:nowrap!important
+}
+.admin-top,.ajk-top,.player-top{
+  display:flex!important;align-items:center!important;justify-content:space-between!important;
+  flex-wrap:nowrap!important;gap:10px!important;min-width:0
+}
+.admin-top .top-actions,.ajk-top .top-actions,.player-top .top-actions{
+  display:flex!important;align-items:center!important;flex-wrap:nowrap!important;gap:8px!important;min-width:0
+}
+.admin-top .user-pill,.ajk-top .user-pill{max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.portal-back-btn{background:#fff!important;color:#17243b!important;border:1px solid #d8dfeb!important}
+@media(max-width:900px){
+  .app-shell{padding:12px!important}
+  .admin-layout,.ajk-layout,.player-layout{background:#f4f6fa!important}
+  .admin-layout .side,.ajk-layout .side,.player-layout .player-side{background:#fff!important}
+  .admin-top,.ajk-top,.player-top{gap:6px!important}
+  .admin-top h1,.ajk-top h1,.player-top h1{font-size:clamp(18px,4.6vw,25px)!important}
+  .admin-top .user-pill,.ajk-top .user-pill{max-width:96px!important;font-size:10px!important}
+  .admin-layout .session-nav,.ajk-layout .session-nav{flex-wrap:nowrap!important}
+  .session-nav>button{min-width:max-content!important}
+}

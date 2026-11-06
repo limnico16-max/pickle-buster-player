@@ -1734,3 +1734,9 @@ body{color:#18243a!important}
  .player-layout .player-nav button.active{background:#edf3ff!important;color:#2858ad!important}
  .admin-layout .session-nav,.ajk-layout .session-nav{background:transparent!important}
 }
+
+/* Profile avatar quick access */
+.profile-avatar-action{position:relative;display:inline-flex;flex:none}
+.profile-avatar-change{position:absolute;right:-7px;top:-7px;width:34px;height:34px;border:2px solid #fff;border-radius:50%;background:#c58bc8;color:#fff;font-size:17px;display:grid;place-items:center;box-shadow:0 3px 10px rgba(45,28,75,.2);cursor:pointer}
+.profile-avatar-change:active{transform:scale(.94)}
+#avatar-picker{scroll-margin-top:24px}

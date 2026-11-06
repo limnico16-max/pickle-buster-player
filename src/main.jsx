@@ -396,7 +396,7 @@ function PlayerLogin({onHome,onReady}) {
         <h1>{mode==='signup'?'Create your Player Login':'Welcome back.'}</h1>
         <p>{mode==='signup'?'Use your registered Username. Player ID and email are not used for login.':'Enter your Username and passcode to enter your personal Pickle Buster Player Portal.'}</p>
         <form onSubmit={submit} className="player-auth-form">
-          <label>Username<input value={username} onChange={e=>setUsername(e.target.value.toUpperCase())} placeholder="CATHERINE" required autoCapitalize="characters"/></label>
+          <label>Username<input value={username} onChange={e=>setUsername(e.target.value.toUpperCase())} placeholder="Enter your Username" required autoCapitalize="characters"/></label>
           {mode==='signup'&&<div className="two"><label>Full name<input value={fullName} onChange={e=>setFullName(e.target.value.toUpperCase())} placeholder="OSCAR" required/></label><label>Phone<input value={phone} onChange={e=>setPhone(e.target.value)} placeholder="012812345" required/></label></div>}
           <label>Passcode<input type="password" value={password} onChange={e=>setPassword(e.target.value)} placeholder="Minimum 6 characters" minLength={6} required/></label>
           <button className="primary player-primary" disabled={loading}>{loading?'Connecting…':mode==='signup'?'Create Player Login':'Sign In'}</button>

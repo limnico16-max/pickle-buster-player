@@ -7,10 +7,10 @@
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/assets/pb-home-screen-icon-original.png?v=20261105",
-      "sizes": "180x180",
+      "src": "/assets/pickle-buster-logo-3d.png?v=20261106-clublogo",
+      "sizes": "520x520",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     }
   ]
 }
